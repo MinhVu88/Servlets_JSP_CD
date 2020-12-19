@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>STUDENT REGISTRATION FORM</title>
+	</head>
+	
+	<body>
+	
+		<form action="StudentResponse.jsp">
+			<!-- create form fields for student to enter their 1st name & last name -->
+			First Name: <input type="text" name="firstName"/>
+			<br><br>
+			Last Name: <input type="text" name="lastName"/>
+			
+			<br><br>
+			
+			<!-- create a drop down list -->
+			Where are you from?
+			<select name="country">
+				<option>Japan</option>
+				<option>Germany</option>
+				<option>Austria</option>
+				<option>Norway</option>
+				<option>Sweden</option>
+				<option>Denmark</option>
+				<option>Canada</option>
+			</select>
+			
+			<br><br>
+			
+			<!-- create radio buttons -->
+			Choose your favorite IDE:<br>
+			<input type="radio" name="favIDE" value="Eclipse"> Eclipse
+			<input type="radio" name="favIDE" value="Android Studio"> Android Studio
+			<input type="radio" name="favIDE" value="Intellij IDEA"> Intellij IDEA
+			<input type="radio" name="favIDE" value="Pycharm"> Pycharm
+			<input type="radio" name="favIDE" value="Cloud9"> Cloud9
+			
+			<br><br>
+			
+			<!-- create check-box buttons -->
+			Choose your favorite programming languages:<br>
+			<input type="checkbox" name="favLanguage" value="Java"> Java
+			<input type="checkbox" name="favLanguage" value="Python"> Python
+			<input type="checkbox" name="favLanguage" value="C++"> C++
+			<input type="checkbox" name="favLanguage" value="Ruby"> Ruby
+			<input type="checkbox" name="favLanguage" value="Javascript"> Javascript
+			<input type="checkbox" name="favLanguage" value="C#"> C#
+			<input type="checkbox" name="favLanguage" value="Swift"> Swift
+			<input type="checkbox" name="favLanguage" value="PHP"> PHP
+			<input type="checkbox" name="favLanguage" value="Pascal"> Pascal
+			<input type="checkbox" name="favLanguage" value="Cobol"> R
+			
+			<br><br>
+			
+			<!-- create a submit button -->
+			<input type="submit" value="Submit"/>
+		</form>
+		
+	</body>
+</html>
